@@ -3,7 +3,8 @@
 
 * Typescript for type safety (Interfaces)
 * Server actions for api call
-* Using tailwind instead of a material ui.
+* Making the UI responsive
+* Using tailwind instead of a material ui
 * Unit tests
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
