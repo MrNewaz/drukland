@@ -32,8 +32,8 @@ const Body = () => {
       .post(
         `https://social-login.druckland.de/api/v1/user/signin/`,
         JSON.stringify({
-          email: "drink@man.dc",
-          password: "bas1234",
+          email: email,
+          password: password,
         }),
         {
           headers: {
