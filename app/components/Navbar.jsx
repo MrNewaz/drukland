@@ -66,51 +66,57 @@ export default function Navbar() {
             <Typography variant="h4" fontWeight="bold" sx={{ flexGrow: 1 }}>
               Drukland.de
             </Typography>
-            <Button
-              color="primary"
-              variant="text"
-              endIcon={<KeyboardArrowDownIcon />}
-            >
-              Business
-            </Button>
-            <Button
-              color="primary"
-              variant="text"
-              endIcon={<KeyboardArrowDownIcon />}
-            >
-              Products
-            </Button>
-            <Button
-              color="primary"
-              variant="text"
+            <Box
               sx={{
-                mr: 2,
+                display: { xs: "none", md: "flex" },
               }}
             >
-              About Us
-            </Button>
+              <Button
+                color="primary"
+                variant="text"
+                endIcon={<KeyboardArrowDownIcon />}
+              >
+                Business
+              </Button>
+              <Button
+                color="primary"
+                variant="text"
+                endIcon={<KeyboardArrowDownIcon />}
+              >
+                Products
+              </Button>
+              <Button
+                color="primary"
+                variant="text"
+                sx={{
+                  mr: 2,
+                }}
+              >
+                About Us
+              </Button>
 
-            <TextField
-              size="small"
-              placeholder="Search"
-              variant="outlined"
-              slotProps={{
-                input: {
-                  sx: {
-                    borderRadius: 4,
+              <TextField
+                size="small"
+                placeholder="Search"
+                variant="outlined"
+                slotProps={{
+                  input: {
+                    sx: {
+                      borderRadius: 4,
+                    },
+                    startAdornment: (
+                      <InputAdornment
+                        sx={{
+                          pr: 1,
+                        }}
+                      >
+                        <SearchIcon />
+                      </InputAdornment>
+                    ),
                   },
-                  startAdornment: (
-                    <InputAdornment
-                      sx={{
-                        pr: 1,
-                      }}
-                    >
-                      <SearchIcon />
-                    </InputAdornment>
-                  ),
-                },
-              }}
-            />
+                }}
+              />
+            </Box>
             <IconButton color="primary" aria-label="LocalShippingIcon">
               <LocalShippingIcon />
             </IconButton>

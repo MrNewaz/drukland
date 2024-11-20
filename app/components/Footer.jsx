@@ -27,7 +27,7 @@ const Footer = () => {
 
         <Box
           sx={{
-            display: "flex",
+            display: { xs: "none", sm: "flex" },
             justifyContent: "center",
             alignItems: "center",
             gap: 2,
