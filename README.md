@@ -1,3 +1,11 @@
+# Disclaimer:
+### Features I wanted to implement but couldn't due to time constraints:
+
+* Typescript for type safety (Interfaces)
+* Server actions for api call
+* Using tailwind instead of a material ui.
+* Unit tests
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
